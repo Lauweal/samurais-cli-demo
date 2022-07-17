@@ -1,5 +1,9 @@
 applications:
-  - name: home
+  - entry: src/index
+    exposes: []
+    name: home
+    output: dist
+    remotes: []
 packages: packages
 protocol: http
 url: localhost
