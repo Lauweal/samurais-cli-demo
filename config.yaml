@@ -4,6 +4,7 @@ applications:
     name: home
     output: dist
     remotes: []
+  - name: user
 packages: packages
 protocol: http
 url: localhost
