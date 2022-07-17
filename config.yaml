@@ -9,7 +9,11 @@ applications:
     name: user
     output: dist
     remotes: []
-  - name: setting
+  - entry: src/index
+    exposes: []
+    name: setting
+    output: dist
+    remotes: []
 packages: packages
 protocol: http
 url: localhost
