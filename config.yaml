@@ -5,7 +5,8 @@ applications:
     output: dist
     remotes: []
   - entry: src/index
-    exposes: []
+    exposes:
+      - App: src/App.tsx
     name: user
     output: dist
     remotes: []
