@@ -17,6 +17,7 @@ applications:
     output: dist
     remotes:
       - user
+      - setting
 packages: packages
 protocol: http
 url: localhost
