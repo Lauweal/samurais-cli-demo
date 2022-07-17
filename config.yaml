@@ -1,10 +1,5 @@
 applications:
   - entry: src/index
-    exposes: []
-    name: home
-    output: dist
-    remotes: []
-  - entry: src/index
     exposes:
       - App: src/App.tsx
     name: user
@@ -13,6 +8,11 @@ applications:
   - entry: src/index
     exposes: []
     name: setting
+    output: dist
+    remotes: []
+  - entry: src/index
+    exposes: []
+    name: home
     output: dist
     remotes: []
 packages: packages
