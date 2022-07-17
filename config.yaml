@@ -4,7 +4,11 @@ applications:
     name: home
     output: dist
     remotes: []
-  - name: user
+  - entry: src/index
+    exposes: []
+    name: user
+    output: dist
+    remotes: []
 packages: packages
 protocol: http
 url: localhost
