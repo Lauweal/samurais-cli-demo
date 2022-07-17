@@ -14,7 +14,8 @@ applications:
     exposes: []
     name: home
     output: dist
-    remotes: []
+    remotes:
+      - user
 packages: packages
 protocol: http
 url: localhost
