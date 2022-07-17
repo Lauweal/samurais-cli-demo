@@ -1,4 +1,5 @@
-applications: []
+applications:
+  - name: home
 packages: packages
 protocol: http
 url: localhost
